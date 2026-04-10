@@ -28,8 +28,8 @@ public class Account {
     void withdraw(double amount) {
         if (amount <= balance) {
             balance -= amount;
-            System.out.println("Withdrawn: " + amount);
-            System.out.println("Balance: " + balance);
+            System.out.println("Withdrawn:-   " + amount);
+            System.out.println("Balance:-    " + balance);
         } else {
             System.out.println("Insufficient funds!");
         }
